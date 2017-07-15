@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926ABC811F19B6BA001D58FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926ABC801F19B6BA001D58FB /* main.m */; };
+		926ABC841F19B6BA001D58FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926ABC831F19B6BA001D58FB /* AppDelegate.m */; };
+		926ABC871F19B6BA001D58FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926ABC861F19B6BA001D58FB /* ViewController.m */; };
+		926ABC8A1F19B6BA001D58FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926ABC881F19B6BA001D58FB /* Main.storyboard */; };
+		926ABC8C1F19B6BA001D58FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926ABC8B1F19B6BA001D58FB /* Assets.xcassets */; };
+		926ABC8F1F19B6BA001D58FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926ABC8D1F19B6BA001D58FB /* LaunchScreen.storyboard */; };
+		926ABC991F19B6F6001D58FB /* JJDRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926ABC981F19B6F6001D58FB /* JJDRouterManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		926ABC7C1F19B6BA001D58FB /* JJDRouterManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJDRouterManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926ABC801F19B6BA001D58FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926ABC821F19B6BA001D58FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		926ABC831F19B6BA001D58FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		926ABC851F19B6BA001D58FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		926ABC861F19B6BA001D58FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		926ABC891F19B6BA001D58FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926ABC8B1F19B6BA001D58FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926ABC8E1F19B6BA001D58FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		926ABC901F19B6BA001D58FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926ABC971F19B6F6001D58FB /* JJDRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDRouterManager.h; sourceTree = "<group>"; };
+		926ABC981F19B6F6001D58FB /* JJDRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDRouterManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926ABC791F19B6BA001D58FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926ABC731F19B6BA001D58FB = {
+			isa = PBXGroup;
+			children = (
+				926ABC7E1F19B6BA001D58FB /* JJDRouterManager */,
+				926ABC7D1F19B6BA001D58FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926ABC7D1F19B6BA001D58FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926ABC7C1F19B6BA001D58FB /* JJDRouterManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926ABC7E1F19B6BA001D58FB /* JJDRouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				926ABC961F19B6DC001D58FB /* JJDRouterManager */,
+				926ABC821F19B6BA001D58FB /* AppDelegate.h */,
+				926ABC831F19B6BA001D58FB /* AppDelegate.m */,
+				926ABC851F19B6BA001D58FB /* ViewController.h */,
+				926ABC861F19B6BA001D58FB /* ViewController.m */,
+				926ABC881F19B6BA001D58FB /* Main.storyboard */,
+				926ABC8B1F19B6BA001D58FB /* Assets.xcassets */,
+				926ABC8D1F19B6BA001D58FB /* LaunchScreen.storyboard */,
+				926ABC901F19B6BA001D58FB /* Info.plist */,
+				926ABC7F1F19B6BA001D58FB /* Supporting Files */,
+			);
+			path = JJDRouterManager;
+			sourceTree = "<group>";
+		};
+		926ABC7F1F19B6BA001D58FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				926ABC801F19B6BA001D58FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		926ABC961F19B6DC001D58FB /* JJDRouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				926ABC971F19B6F6001D58FB /* JJDRouterManager.h */,
+				926ABC981F19B6F6001D58FB /* JJDRouterManager.m */,
+			);
+			path = JJDRouterManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926ABC7B1F19B6BA001D58FB /* JJDRouterManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926ABC931F19B6BA001D58FB /* Build configuration list for PBXNativeTarget "JJDRouterManager" */;
+			buildPhases = (
+				926ABC781F19B6BA001D58FB /* Sources */,
+				926ABC791F19B6BA001D58FB /* Frameworks */,
+				926ABC7A1F19B6BA001D58FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJDRouterManager;
+			productName = JJDRouterManager;
+			productReference = 926ABC7C1F19B6BA001D58FB /* JJDRouterManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926ABC741F19B6BA001D58FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = baibaime;
+				TargetAttributes = {
+					926ABC7B1F19B6BA001D58FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 926ABC771F19B6BA001D58FB /* Build configuration list for PBXProject "JJDRouterManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926ABC731F19B6BA001D58FB;
+			productRefGroup = 926ABC7D1F19B6BA001D58FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926ABC7B1F19B6BA001D58FB /* JJDRouterManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926ABC7A1F19B6BA001D58FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926ABC8F1F19B6BA001D58FB /* LaunchScreen.storyboard in Resources */,
+				926ABC8C1F19B6BA001D58FB /* Assets.xcassets in Resources */,
+				926ABC8A1F19B6BA001D58FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926ABC781F19B6BA001D58FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926ABC871F19B6BA001D58FB /* ViewController.m in Sources */,
+				926ABC991F19B6F6001D58FB /* JJDRouterManager.m in Sources */,
+				926ABC841F19B6BA001D58FB /* AppDelegate.m in Sources */,
+				926ABC811F19B6BA001D58FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		926ABC881F19B6BA001D58FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926ABC891F19B6BA001D58FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		926ABC8D1F19B6BA001D58FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926ABC8E1F19B6BA001D58FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926ABC911F19B6BA001D58FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		926ABC921F19B6BA001D58FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926ABC941F19B6BA001D58FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJDRouterManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baibaime.JJDRouterManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		926ABC951F19B6BA001D58FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJDRouterManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baibaime.JJDRouterManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926ABC771F19B6BA001D58FB /* Build configuration list for PBXProject "JJDRouterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926ABC911F19B6BA001D58FB /* Debug */,
+				926ABC921F19B6BA001D58FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926ABC931F19B6BA001D58FB /* Build configuration list for PBXNativeTarget "JJDRouterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926ABC941F19B6BA001D58FB /* Debug */,
+				926ABC951F19B6BA001D58FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926ABC741F19B6BA001D58FB /* Project object */;
+}
